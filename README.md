@@ -1,10 +1,11 @@
 # Django aiogram
 
-Launch:
+# Launch
 1. Install requirements
-```bash
-    $ pip install -r req.txt
-    ```
+
+   ```bash
+     $ pip install -r req.txt
+   ```
 2. Migrations
   
    ```bash
@@ -18,7 +19,7 @@ Launch:
    ```bash
       $ py manage.py runserver
     ```
- 4. Run bot
- ```bash
+4. Run bot
+  ```bash
       $ py manage.py bot_run
     ```
