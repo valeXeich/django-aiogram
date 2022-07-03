@@ -51,9 +51,13 @@ async def check_password(message: Message, state: FSMContext):
     await state.finish()
 
 
+async def start(message: Message):
+    await message.answer('Команды: \n\n/Регистрация')
+
 def register_handlers(dp: Dispatcher):
     dp.register_message_handler(start_registration, commands='Регистрация', state=None)
     dp.register_message_handler(set_username, state=RegisterFSM.username)
     dp.register_message_handler(set_password, state=RegisterFSM.password)
     dp.register_message_handler(r_password_invalid, lambda message: message.text != password, state=RegisterFSM.r_password)
     dp.register_message_handler(check_password, lambda message: message.text == password, state=RegisterFSM.r_password)
+    dp.register_message_handler(start, commands='start')
