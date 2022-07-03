@@ -20,6 +20,7 @@
       $ py manage.py runserver
     ```
 4. Run bot
-  ```bash
+   ```bash
       $ py manage.py bot_run
     ```
+
