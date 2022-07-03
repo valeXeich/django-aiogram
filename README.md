@@ -9,18 +9,18 @@
 2. Migrations
   
    ```bash
-     $ py manage.py makemigrations
+     $ python manage.py makemigrations
    ```
    ```bash
-     $ py manage.py migrate
+     $ python manage.py migrate
    ```
 3. Run server
 
    ```bash
-      $ py manage.py runserver
+      $ python manage.py runserver
     ```
 4. Run bot
    ```bash
-      $ py manage.py bot_run
+      $ python manage.py bot_run
     ```
 
