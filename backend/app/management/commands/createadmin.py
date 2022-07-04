@@ -6,4 +6,4 @@ User = get_user_model()
 class Command(BaseCommand):
 
     def handle(self, *args, **options):
-        User.create_superuser(username='test', password='test')
+        User.objects.create_superuser(username='test', password='test')
