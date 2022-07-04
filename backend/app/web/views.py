@@ -34,3 +34,7 @@ class UserView(View):
             'user': request.user
         }
         return render(request, 'profile_detail.html', context)
+
+
+def test(request):
+    return HttpResponse('hello')
