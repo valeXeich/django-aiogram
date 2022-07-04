@@ -7,8 +7,8 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 os.environ["DJANGO_ALLOW_ASYNC_UNSAFE"] = "true"
 django.setup()
 
-from .create_bot import dp
-from .handlers import register_handlers
+from create_bot import dp
+from handlers import register_handlers
 
 
 async def on_startup(_):
