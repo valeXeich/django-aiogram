@@ -77,16 +77,6 @@ WSGI_APPLICATION = 'config.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'django_aiogram',
-#         'USER': 'admin',
-#         'PASSWORD': 'admin',
-#         'HOST': 'localhost',
-#         'PORT': '5432',
-#     }
-# }
 
 DATABASES = {
     'default': {
@@ -101,8 +91,8 @@ DATABASES = {
 
 AUTH_USER_MODEL = 'app.MyUser'
 
-LOGIN_REDIRECT_URL = '/login/'
-LOGOUT_REDIRECT_URL = '/login/'
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/'
 
 
 # Password validation
