@@ -1,3 +1,3 @@
 release: python backend/manage.py makemigrations
 release: python backend/manage.py migrate
-web: gunicorn backend.config.wsgi:application
+web: python backend/manage.py runserver 0.0.0.0:$PORT
