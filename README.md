@@ -1,26 +1,9 @@
 # Django aiogram
 
-# Launch
-1. Install requirements
+#Links:
 
-   ```bash
-     $ pip install -r req.txt
-   ```
-2. Migrations
-  
-   ```bash
-     $ python manage.py makemigrations
-   ```
-   ```bash
-     $ python manage.py migrate
-   ```
-3. Run server
+1. Heroku: https://django-aiogram.herokuapp.com/
+2. Telegram bot: https://t.me/DjangoRegisterBot
 
-   ```bash
-      $ python manage.py runserver
-    ```
-4. Run bot
-   ```bash
-      $ python manage.py bot_run
-    ```
+
 
