@@ -94,7 +94,7 @@ AUTH_USER_MODEL = 'app.MyUser'
 LOGIN_REDIRECT_URL = '/'
 LOGOUT_REDIRECT_URL = '/'
 
-CSRF_TRUSTED_ORIGINS = ["https://django-aiogram.herokuapp.com/"]
+CSRF_TRUSTED_ORIGINS = ["https://django-aiogram.herokuapp.com"]
 
 
 # Password validation
